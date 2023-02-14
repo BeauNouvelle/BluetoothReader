@@ -11,6 +11,7 @@
 		8B5F868C299AE5BA005CD8C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F868B299AE5BA005CD8C0 /* ContentView.swift */; };
 		8B5F868E299AE5BB005CD8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5F868D299AE5BB005CD8C0 /* Assets.xcassets */; };
 		8B5F8691299AE5BB005CD8C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5F8690299AE5BB005CD8C0 /* Preview Assets.xcassets */; };
+		8B5F8698299AFC80005CD8C0 /* BluetoothService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F8697299AFC80005CD8C0 /* BluetoothService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8B5F868B299AE5BA005CD8C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B5F868D299AE5BB005CD8C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B5F8690299AE5BB005CD8C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B5F8697299AFC80005CD8C0 /* BluetoothService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		8B5F8688299AE5BA005CD8C0 /* BluetoothReader */ = {
 			isa = PBXGroup;
 			children = (
+				8B5F8697299AFC80005CD8C0 /* BluetoothService.swift */,
 				8B5F8689299AE5BA005CD8C0 /* BluetoothReaderApp.swift */,
 				8B5F868B299AE5BA005CD8C0 /* ContentView.swift */,
 				8B5F868D299AE5BB005CD8C0 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B5F868C299AE5BA005CD8C0 /* ContentView.swift in Sources */,
+				8B5F8698299AFC80005CD8C0 /* BluetoothService.swift in Sources */,
 				8B5F868A299AE5BA005CD8C0 /* BluetoothReaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = 2VA9RUV2PN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = Hello;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = 2VA9RUV2PN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = Hello;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
